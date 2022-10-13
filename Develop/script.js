@@ -60,7 +60,7 @@ var generatePassword = function() {
 	passwordCriteria.length = parseInt(passwordCriteria.length);
 
 	if (passwordCriteria.length < 8 || passwordCriteria.length > 128) {
-		window.alert("Invalid length. Please try again.");
+		window.alert("Invalid length. Please choose a number between 8 and 128.");
 		generatePassword();
 	}
 
